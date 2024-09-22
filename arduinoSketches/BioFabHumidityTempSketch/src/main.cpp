@@ -5,7 +5,8 @@ void setup() {
 }
 
 void loop() {
-  int sensorValue = analogRead(A6);  // Read the voltage on pin A6
-  Serial.println(sensorValue);  // Print the voltage value
+  int sensorValue1 = analogRead(A6);  // Read the voltage on pin A6
+  int sensorValue2 = analogRead(A7);
+  Serial.println(String((sensorValue1 + sensorValue2) / 2));
   delay(300);  // Delay for 1 second between readings
 }
