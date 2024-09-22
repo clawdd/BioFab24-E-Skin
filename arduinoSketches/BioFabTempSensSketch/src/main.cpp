@@ -41,15 +41,16 @@ void loop(void)
   adc3 = ads.readADC_SingleEnded(3);  // Read from AIN3
   
   // Print the ADC values for each channel
-  Serial.print("AIN0: "); Serial.println(adc0);
-  Serial.print("AIN1: "); Serial.println(adc1);
-  Serial.print("AIN2: "); Serial.println(adc2);
-  Serial.print("AIN3: "); Serial.println(adc3);
-  Serial.println();
+  //Serial.print("AIN0: "); 
+  Serial.println(adc0);
+  //Serial.print("AIN1: "); Serial.println(adc1);
+  //Serial.print("AIN2: "); Serial.println(adc2);
+  //Serial.print("AIN3: "); Serial.println(adc3);
+  //Serial.println();
 
   // If you want to read from the Arduino's A2 pin (separate from ADS1015)
   // int analogValue = analogRead(READ_PIN);  // Read the value from Arduino pin A2
   // Serial.print("Arduino (Pin" +  String(READ_PIN)  + " ): "); Serial.println(analogValue);
 
-  delay(300);  // Wait for a second before the next reading
+  delay(1000);  // Wait for a second before the next reading
 }
