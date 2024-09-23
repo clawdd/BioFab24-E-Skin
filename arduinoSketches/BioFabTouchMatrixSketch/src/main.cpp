@@ -22,17 +22,20 @@ void loop() {
     SendRawString();
     // SendRawByte(); // Faster
   }
-  delay(16); // waiting 16ms for 60fps
+  delay(500); // waiting 16ms for 60fps
 }
 
 void SendRawString() {
   // Print the array value
+  int counter = 0;
   for (int i = 0; i < NUM_TX * NUM_RX; i++) {
     if (muca.grid[i] >= 0) Serial.print(muca.grid[i]); // The +30 is to be sure it's positive
-    if (i != NUM_TX * NUM_RX - 1)
-      Serial.print(",");
+    if (i != NUM_TX * NUM_RX - 1) Serial.print(",");
+    counter++;
   }
   Serial.println();
+  Serial.println("############################################################################");
+  Serial.println(counter);
   Serial.println("############################################################################");
 }
 
