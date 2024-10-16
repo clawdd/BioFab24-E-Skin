@@ -7,9 +7,7 @@ Adafruit_ADS1115 ads;
 
 void setup(void)
 {
-  // Initialize serial communication
   Serial.begin(9600);
-  Serial.println("Hello!");
 
   // Print information about ADC settings
   Serial.println("Getting single-ended readings from AIN0, AIN1, AIN2, and AIN3");
@@ -23,7 +21,6 @@ void setup(void)
   // ads.setGain(GAIN_EIGHT);      // +/- 0.512V range, 1 bit = 0.25mV
   ads.setGain(GAIN_SIXTEEN);    // +/- 0.256V range, 1 bit = 0.125mV
 
-  // Initialize the ADS1015 ADC
   if (!ads.begin()) {
     Serial.println("Failed to initialize ADS.");
     while (1);  // Halt if initialization fails
