@@ -8,6 +8,6 @@
 
 ---
 
-This project is a result of the "Bio-based Fabrication for Sustainable Interactive Systems" seminar at my university (Universität des Saarlandes). I made this repository mainly to share the technology and information used to create the e-skin prototype. More on the work that was done can be found in the [report](https://github.com/clawdd/BioFab24-E-Skin/blob/main/SensitiveBacteria.pdf) , where we talk about growing, assembly, and evaluation.
+This project is a result of the "Bio-based Fabrication for Sustainable Interactive Systems" seminar at my university (Universität des Saarlandes). I made this repository mainly to share the technology and information used to create the e-skin prototype. More on the work that was done can be found in the [report](https://github.com/clawdd/BioFab24-E-Skin/blob/main/LivingLayers.pdf) , where we talk about growing, assembly, and evaluation.
 
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![R](https://img.shields.io/badge/r-%23276DC3.svg?style=for-the-badge&logo=r&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
