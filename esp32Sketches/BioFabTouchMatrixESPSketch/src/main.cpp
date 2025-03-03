@@ -33,7 +33,6 @@ void SendRawString() {
       Serial.print(",");
   }
   Serial.println();
-
 }
 
 
